@@ -1,0 +1,12 @@
+#nodejs
+node_modules
+npm-debug.log*
+
+#app
+results/
+
+#test/training set
+test_set
+training_set
+model.h5
+images

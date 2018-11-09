@@ -1,0 +1,26 @@
+{
+  "name": "create-training-set",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "training-ok": "node index.js --type training --count 4000 --port 1331",
+    "training-nok": "node index.js --type training --nok --count 4000 --port 1332",
+    "test-ok": "node index.js --type test --count 1000 --port 1333",
+    "test-nok": "node index.js --type test --nok --count 1000 --port 1334",
+    "test": "node index.js --type test --nok --count 10 --port 1334"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "command-line-args": "^5.0.2",
+    "express": "^4.16.4",
+    "express-http-proxy": "^1.4.0",
+    "mkdirp": "^0.5.1",
+    "mkdirp-promise": "^5.0.1",
+    "nunjucks": "^3.1.3",
+    "puppeteer": "^1.9.0",
+    "rimraf-promise": "^2.0.0",
+    "serve-static": "^1.13.2"
+  }
+}

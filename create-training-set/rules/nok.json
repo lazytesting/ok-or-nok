@@ -1,0 +1,39 @@
+[ 
+    {
+        "urlMatch" : "style.css", 
+        "matchValue" : "padding: 19px 29px 29px;",
+        "replaceValue" : "padding: 29px {{ [-60,-70,-80,-90] | random }}px 29px;"        
+    },
+    {
+        "urlMatch" : "style.css", 
+        "matchValue" : "max-width: 300px;",
+        "replaceValue" : "max-width: {{ [80,60,10,0] | random }}px;"        
+    },
+    {
+        "urlMatch" : "style.css", 
+        "matchValue" : "margin-left: 0px;",
+        "replaceValue" : "margin-left: {{ [-100,-150,-30] | random }}px;"        
+    },
+    {
+        "urlMatch" : "style.css", 
+        "matchValue" : "visibility: visible;",
+        "replaceValue" : "visibility: hidden;"        
+    },
+    {
+        "urlMatch" : "style.css", 
+        "matchValue" : "background-color: #f5f5f5;",
+        "replaceValue" : "background-color: #{{ ['800080', 'ff0000', '00ff00', 'ffff00'] | random }};"        
+    },
+    {
+        "urlMatch" : "style.css", 
+        "matchValue" : "margin-left: 1px;",
+        "replaceValue" : "margin-left: {{ [-10,-20,-30,-40] | random }};"        
+    },
+    {
+        "urlMatch" : "style.css", 
+        "matchValue" : "font-size: 16px;",
+        "replaceValue" : "font-size: {{ [1,2,3,4,5] | random }};"        
+    }
+]
+    
+       
